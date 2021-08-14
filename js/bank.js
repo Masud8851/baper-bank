@@ -7,4 +7,12 @@ document.getElementById('login-submit').addEventListener('click',function(){
     const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
     
+    if(userEmail == 'masudur15-8851@diu.edu.bd' && userPassword == 'secret')
+    {
+        console.log("Valid User")
+    }
+    else
+    {
+        console.log('Wrong email or password')
+    }
 });
