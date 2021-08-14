@@ -21,13 +21,13 @@ document.getElementById('withdraw-button').addEventListener('click', function(){
     const newWithdrawAmount = parseFloat(withdrawInput.value);
     
     // pass withdraw input  to Total Withdraw
-    const totalDeposit =document.getElementById('deposit-total')
-    const previousTotalDeposit = parseFloat(totalDeposit.innerText);
-    const newDepositTotal = previousTotalDeposit + newDepositAmount;
-    totalDeposit.innerText = newDepositTotal;
+    const totalWithdraw =document.getElementById('withdraw-total')
+    const previousTotalWithdraw = parseFloat(totalWithdraw.innerText);
+    const newWithdrawTotal = previousTotalWithdraw + newWithdrawAmount;
+    totalWithdraw.innerText = newWithdrawTotal;
     
     // clear the input field 
-    depositInput.value='';
+    withdrawInput.value='';
 })
 
 
