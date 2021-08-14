@@ -12,9 +12,10 @@
         <h1 class="text-6xl text-center mt-16">Let's get some <span class="font-semibold text-purple-600">Mooney</span>!!!</h1>
     </header>
 
-    <main>
-        <section class="mt-8">
-            <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+    <main class="w-3/4 mx-auto">
+        <!-- Balance and Transaction -->
+        <section class="mt-8 mb-4">
+            <div class="grid grid-cols-3 gap-4">
                 <div class="bg-indigo-500 p-8 rounded">
                     <h3 class="text-3xl text-white ">Deposit</h3>
                     <h3 class="text-5xl text-white">$1740</h3>
@@ -26,6 +27,19 @@
                 <div class="bg-green-400 p-8 rounded">
                     <h3 class="text-3xl text-white ">Balance</h3>
                     <h3 class="text-5xl text-white">$1240</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deposit and Withdraw -->
+        <section class="mb-4">
+            <div class="grid grid-cols-2">
+                <div>
+                    <h3 class="text-3xl">Please Deposit</h3>
+                    <div>
+                        <input class="border-2 border-gray-300 rounded block mb-4 w-2/4 px-2" type="text" placeholder="your deposit" id="deposit-amount">
+                        <button class="bg-gray-200 p-2 rounded font-semibold text-purple-600" id="login-submit">Deposit</button>
+                    </div>
                 </div>
             </div>
         </section>
