@@ -1,6 +1,6 @@
 function getInputValue(inputId){
     // get deposit input
-    const inputField = document.getElementById('inputId');
+    const inputField = document.getElementById(inputId);
     const inputAmountText = inputField.value;
     const amountValue = parseFloat(inputAmountText);
     
