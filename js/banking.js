@@ -6,7 +6,7 @@
 // const severDouble = doubleIt(7);
 
 function getInputValue(inputId) {
-    debugger;
+    // debugger;
     const inputField = document.getElementById(inputId);
     const inputAmountText = inputField.value;
     const amountValue = parseFloat(inputAmountText);
