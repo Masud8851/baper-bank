@@ -1,9 +1,9 @@
-function doubleIt(num) {
-    const result = num * 2;
-    return result;
-}
-const fiveDouble = doubleIt(5);
-const severDouble = doubleIt(7);
+// function doubleIt(num) {
+//     const result = num * 2;
+//     return result;
+// }
+// const fiveDouble = doubleIt(5);
+// const severDouble = doubleIt(7);
 
 function getInputValue(inputId) {
     debugger;
