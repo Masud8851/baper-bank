@@ -21,9 +21,9 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     const depositAmount = getInputValue('deposit-input');
     
     // pass deposit input  to Total Deposit
-    const totalDeposit =document.getElementById('deposit-total')
+    const totalDeposit = document.getElementById('deposit-total')
     const previousTotalDeposit = parseFloat(totalDeposit.innerText);
-    const newDepositTotal = previousTotalDeposit + newDepositAmount;
+    const newDepositTotal = previousTotalDeposit + depositAmount;
     totalDeposit.innerText = newDepositTotal;
 
     // update Balance button event
