@@ -8,7 +8,7 @@ document.getElementById('login-submit').addEventListener('click',function(){
     const userPassword = passwordField.value;
     
     // check email and password
-    if(userEmail == 'masudur15-8851@diu.edu.bd' && userPassword == 'secret')
+    if(userEmail == 'admin@admin.com' && userPassword == '123456')
     {
         // console.log("Valid User")
         window.location.href = 'banking.html'
